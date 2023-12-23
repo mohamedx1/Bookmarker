@@ -2,9 +2,10 @@ var siteNameInput = document.getElementById("siteNameInput");
 var siteUrlInput = document.getElementById("siteUrlInput");
 var bookList = [];
 
-
-bookList = JSON.parse(localStorage.getItem("bookMarks"));
-displayData()
+if (localStorage.getItem("bookMarks") != null) {
+    proudctList = JSON.parse(localStorage.getItem("bookMarks"));
+    displayData()
+}
 
 function addBookMark() {
     var siteName = siteNameInput.value;
