@@ -1,0 +1,58 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #15202b;
+}
+.main .heading {
+    position: relative;
+    width: fit-content;
+    margin: auto;
+    color: white;
+    white-space: 20px;
+}
+
+.main .heading span {
+    color:  #faec4d;
+}
+
+.main label {
+    color: #21569f;
+}
+
+.main h3 {
+    color: #020d1c;
+    width: fit-content;
+    margin: auto;
+    margin-top: 2rem;
+    font-size: 35px;
+}
+
+.main h3 span {
+    background-image: url(images/toppng.com-paint-brush-stroke-yellow-1024x257.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+.main .myForm button {
+    text-align: center;
+    font-size: 1.1rem;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.main .visit-btn {
+    color: white;
+    color: #0050bd;
+    border:1px solid #0050bd;
+    transition:  background-color 0.15s;
+}
+
+.main .visit-btn:hover {
+    background-color: #0050bd ;
+    color: white;
+}
+

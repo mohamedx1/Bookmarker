@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Bootstrab css file  -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- font awosem -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- main css file -->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="main container">
+        <h1 class="text-center mt-3 heading">Book<span>marker</span></h1>
+        <h3><span>Bookmark</span> your favorite sites</h3>
+        <div class="w-75 m-auto mt-5 myForm">
+            <label for="siteNameInput"><i class="fa-solid fa-book-bookmark pe-2"></i>Site Name :</label>
+            <input id="siteNameInput" type="text" class="form-control mb-5 mt-2" >
+            <label for="siteUrlInput"><i class="fa-solid fa-book-bookmark pe-2"></i>Site URL :</label>
+            <input id="siteUrlInput" type="text" class="form-control mb-3 mt-2" >
+            <button onclick="addBookMark()" class="btn w-25 d-flex m-auto mb-5 mt-5 btn-outline-primary">Add URL<i class="fa-solid fa-link"></i></button>
+        </div>
+        <div class="" >
+            <table class="table text-center">
+                <thead>
+                    <tr>
+                        <th>Index</th>
+                        <th>Website Name</th>
+                        <th>Visit</th>
+                        <th>Delete</th>
+                    </tr>
+                </thead>
+                <tbody id="tableBody">
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
