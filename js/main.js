@@ -3,7 +3,7 @@ var siteUrlInput = document.getElementById("siteUrlInput");
 var bookList = [];
 
 if (localStorage.getItem("bookMarks") != null) {
-    proudctList = JSON.parse(localStorage.getItem("bookMarks"));
+    bookList = JSON.parse(localStorage.getItem("bookMarks"));
     displayData()
 }
 
